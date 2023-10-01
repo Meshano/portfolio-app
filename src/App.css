@@ -1,0 +1,195 @@
+/* index.html */
+
+html {
+  background-color: dimgray;
+  height: 100%;
+}
+
+a {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: crimson;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+}
+
+ul {
+  background-color: grey;
+  height: 70px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  width: 24%;
+  padding-top: 20px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.tekst {
+  display: flex;
+  height: 75%;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  color: oldlace;
+  margin: 0;
+  font-size: 70px;
+}
+
+h2 {
+  color: wheat;
+  margin: 0;
+  font-size: 40px;
+}
+
+h3 {
+  color: wheat;
+  margin: 0;
+  font-size: 40px;
+}
+
+footer {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: grey;
+  color: crimson;
+  font-size: 22px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
+}
+
+/* portfolio.html */
+
+.secflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+
+.sec1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-top: 100px;
+  padding-bottom: 250px;
+  height: 50%;
+  text-align: center;
+}
+
+.sec2 {
+  width: 30%;
+  text-align: center;
+  height: 50%;
+}
+
+.sec3 {
+  width: 30%;
+}
+
+.sec4 {
+  width: 30%;
+  text-align: center;
+  height: 50%;
+}
+
+.sec5 {
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-bottom: 300px;
+  text-align: center;
+}
+
+.portimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 60%;
+}
+
+.normalul {
+  list-style-type: circle;
+  background-color: #696969;
+}
+
+.normalli {
+  display: list-item;
+  width: 100%;
+  padding-top: 0;
+}
+
+.infolinks {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  width: 4%;
+}
+
+.gmailicon{
+  margin-right: 5px;
+}
+.linkedinicon {
+  margin-right: 5px;
+}
+
+.githubicon{
+  margin-right: 5px;
+}
+
+.footer-port {
+  position: static;
+  height: 40%;
+}
+
+.full-footer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rij1-footport {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.rij2-footport {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* media screens 
+
+@media screen and (min-width: 480px) {
+  body {
+  }
+}
+*/
