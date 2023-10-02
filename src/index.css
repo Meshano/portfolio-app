@@ -118,8 +118,6 @@ footer {
 }
 
 .sec5 {
-  padding-left: 400px;
-  padding-right: 400px;
   padding-bottom: 300px;
   text-align: center;
 }
@@ -128,11 +126,12 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 100%;
-  width: 60%;
+  max-height: 100%;
+  max-width: 80%;
 }
 
 .normalul {
+  height: 100%;
   list-style-type: circle;
   background-color: #696969;
 }
@@ -141,6 +140,10 @@ footer {
   display: list-item;
   width: 100%;
   padding-top: 0;
+}
+
+.autorimg {
+  max-width: 70%;
 }
 
 .infolinks {
@@ -153,6 +156,7 @@ footer {
 .gmailicon{
   margin-right: 5px;
 }
+
 .linkedinicon {
   margin-right: 5px;
 }
@@ -186,10 +190,53 @@ footer {
   width: 100%;
 }
 
-/* media screens 
+/* media screens  */
 
-@media screen and (min-width: 480px) {
-  body {
+@media screen and (max-width: 1000px) {
+  
+  .secflex {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .sec1 {
+      padding-bottom: 150px;
+  }
+
+  .sec2 {
+      width: 70%;
+      padding-bottom: 100px;
+  }
+
+  .sec3 {
+     width: 60%;
+     padding-bottom: 100px;
+  }
+
+  .sec4 {
+      width: 70%;
+  }
+
+  .sec5 {
+      padding-bottom: 200px;
   }
 }
-*/
+
+@media screen and (max-width: 500px) {
+
+  .sec2 {
+      padding-bottom: 100px;
+  }
+
+  .sec3 {
+      padding-bottom: 100px;
+  }
+  
+  .autorimg {
+      max-width: 90%;
+  }
+
+  .sec5 {
+      padding-bottom: 150px;
+  }
+}
