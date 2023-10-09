@@ -133,7 +133,7 @@ footer {
 .normalul {
   height: 100%;
   list-style-type: circle;
-  background-color: #696969;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .normalli {
