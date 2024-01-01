@@ -220,6 +220,10 @@ footer {
   .sec5 {
       padding-bottom: 200px;
   }
+
+  .infolinks {
+    width: 8%;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -242,5 +246,5 @@ footer {
 
   .infolinks {
     width: 40%;
-}
+  }
 }
