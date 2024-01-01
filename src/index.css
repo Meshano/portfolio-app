@@ -239,4 +239,8 @@ footer {
   .sec5 {
       padding-bottom: 150px;
   }
+
+  .infolinks {
+    width: 40%;
+}
 }
