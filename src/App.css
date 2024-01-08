@@ -133,7 +133,7 @@ footer {
 .normalul {
   height: 100%;
   list-style-type: circle;
-  background-color: #696969;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .normalli {
@@ -190,6 +190,24 @@ footer {
   width: 100%;
 }
 
+
+/* about.html */
+
+.sec6 {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 30%;
+}
+
+.aboutimg {
+  border-style: solid;
+}
+
+.sec7 {
+    height: 30%;
+    text-align: center;
+}
+
 /* media screens  */
 
 @media screen and (max-width: 1000px) {
@@ -220,6 +238,10 @@ footer {
   .sec5 {
       padding-bottom: 200px;
   }
+
+  .infolinks {
+    width: 8%;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -238,5 +260,9 @@ footer {
 
   .sec5 {
       padding-bottom: 150px;
+  }
+
+  .infolinks {
+    width: 40%;
   }
 }
