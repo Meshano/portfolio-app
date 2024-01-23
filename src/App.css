@@ -107,11 +107,11 @@ footer {
   height: 50%;
 }
 
-#but1 {
+#link1 {
   font-size: 20px;
 }
 
-.but1:hover {
+#link1:hover {
   color:white;
 }
 
