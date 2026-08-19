@@ -1,15 +1,8 @@
-/* index.html */
+/* Home */
 
 html {
   background-color: dimgray;
   height: 100%;
-}
-
-a {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: crimson;
-  text-decoration: none;
-  font-size: 22px;
 }
 
 body {
@@ -21,8 +14,17 @@ header {
   width: 100%;
 }
 
+a {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: none;
+  font-size: 22px;
+  color: grey;
+}
+
 ul {
-  background-color: grey;
+  display: flex;
+  justify-content: end;
+
   height: 70px;
   list-style-type: none;
   margin: 0;
@@ -32,13 +34,69 @@ ul {
 li {
   display: inline-block;
   text-align: center;
-  width: 24%;
-  padding-top: 20px;
 }
 
 img {
   height: 100%;
   width: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-size: 70px;
+}
+
+h2 {
+  color: white;
+  margin: 0;
+  font-size: 40px;
+}
+
+h3 {
+  color: white;
+  margin: 0;
+  font-size: 40px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  display: flex;
+  font-family: "Playwrite BR Guides", cursive;
+  color: grey;
+  margin-right: 50px;
+}
+
+.name-tag {
+    font-family: "Playwrite BR Guides", cursive;
+    color: crimson;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 50px;
+}
+
+.icons {
+  height: 100%;
+  width: 100%;
+  background-color: grey;
 }
 
 .tekst {
@@ -49,39 +107,7 @@ img {
   flex-direction: column;
 }
 
-h1 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: center;
-  color: oldlace;
-  margin: 0;
-  font-size: 70px;
-}
-
-h2 {
-  color: wheat;
-  margin: 0;
-  font-size: 40px;
-}
-
-h3 {
-  color: wheat;
-  margin: 0;
-  font-size: 40px;
-}
-
-footer {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: grey;
-  color: crimson;
-  font-size: 22px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 15%;
-}
-
-/* portfolio.html */
+/* about.html */
 
 .secflex {
   display: flex;
@@ -158,21 +184,10 @@ footer {
   width: 4%;
 }
 
-.gmailicon{
-  margin-right: 5px;
-}
-
-.linkedinicon {
-  margin-right: 5px;
-}
-
-.githubicon{
-  margin-right: 5px;
-}
-
 .footer-port {
+  background-color: black;
   position: static;
-  height: 40%;
+  height: 25%;
 }
 
 .full-footer {
@@ -193,6 +208,11 @@ footer {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+
+.back-button {
+  color: crimson;
+  font-size: 40px;
 }
 
 
